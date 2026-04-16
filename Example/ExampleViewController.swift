@@ -86,7 +86,7 @@ class ExampleViewController: UIViewController {
         config.library.maxNumberOfItems = 10
         config.library.defaultMultipleSelection = false
         config.library.isSquareByDefault = false
-        config.sizeLimit = 1000000
+        config.sizeLimit = 1_024 * 1_024 * 10 
         config.video.recordingTimeLimit = .zero
         config.video.libraryTimeLimit = .zero
         config.video.minimumTimeLimit = .zero
